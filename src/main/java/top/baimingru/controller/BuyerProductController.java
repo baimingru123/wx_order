@@ -41,6 +41,7 @@ public class BuyerProductController {
         //1.查询所有上架的商品
         List<ProductInfo> productInfoList=productInfoService.findUpAll();
 
+
         //2.查询类目
         //传统方法
 //        List<Integer> categoryTypeList=new ArrayList<>();
